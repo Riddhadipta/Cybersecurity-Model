@@ -1,4 +1,5 @@
-Cybersecurity-Model
+Cybersecurity Model
+
 The basic principles of IDS in this approach is to train the Artificial Intelligence (AI) model to get the features of normal CAN messages first, and then by monitoring the exchanging message and comparing it with the artificial intelligence model to distinguish between normal and abnormal messages. 
 It consists of a Transformers architecture to detect malicious software automatically. A pretrained model is to be generated to capture various characteristics of both malicious and benign assembly codes. That improves the model’s detection performance. A random forest classification model can be designed that uses pre-processed features to characterize existing malicious and benign code pieces. It consists of a large number of individual decision trees that operate as an ensemble. Each individual tree in the random forest spits out a class prediction and the class with the most votes becomes our model’s prediction.
 The resulting random forest classification model can then distinguish between those code pieces by recognizing novel malware or benign assembly codes and also classifying malware into known types such as virus, worm, and trojan.
